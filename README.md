@@ -20,20 +20,42 @@ The goal of the writing assignment is for you to present your findings in a logi
 
 For the written analysis, you should use the repository README.md to write your report. The report will contain three sections: an overview of the election audit, election audit results, and election audit summary.
 
-**Overview of Election Audit:** Explain the purpose of this analysis.
+**Overview of Election Audit:** Explain the purpose of this analysis. 
+
+The purpose of this analysis is to review a cvs file containing election data and provide a concise election results using the following learned from this week: lists, dictionaries, decision statements, appending lists, calculating percentages, and printing results to a text file.
 
 **Election Audit Results:** Using a bulleted list, address the following election outcomes. Use images of examples of your code if necessary to support your evidence.
 
 - How many total votes were cast in this congressional election?
 
+369,711
+
 - Provide a breakdown of number of votes and percentage of total votes for each county each in the precinct.
+
+County Votes:
+Jefferson: 10.5% (38,855)
+Denver: 82.8% (306,055)
+Arapahoe: 6.7% (24,801)
+
 - Which county had the largest number of votes?
+
+Denver
 
 - Provide a breakdown of the number votes and percentage of total votes each candidate received.
 
+Charles Casper Stockham: 23.0% (85,213)
+Diana DeGette: 73.8% (272,892)
+Raymon Anthony Doane: 3.1% (11,606)
+
 - Which candidate won the election, what was their total number of votes and percentage of total votes?
 
+Winner: Diana DeGette
+Winning Vote Count: 272,892
+Winning Percentage: 73.8%
+
 **Election Audit Summary:** In a summary statement provide a business proposal to the election commission on how this script can be used for any election with some modifications. Give at least two examples of how this script can be modified to meet business requirements to convince the election commission to use this script for future elections.
+
+This script can easily be used for another upcoming election. The script concisely analyzes 369,711 votes to provide the largest county turnout, exact count for each candidate, and the winner. The script can be modified to show the smallest county turnout. This number can be useful when trying to see need to up their turnouts. You can also add additional counties to the csv file, and you would obtain the results you are looking for.
 
 **Hint:** In the statement, we would like you to use some critical thinking. Here are a few examples that will meet this requirement:
 
